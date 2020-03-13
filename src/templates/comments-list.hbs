@@ -1,0 +1,15 @@
+{{#each filterArrComments}}
+<ul class="popup__comments-list">
+    <li class="popup__comments-item">
+               <div class="popup__comments-info">
+                   <span class="popup__info-name">{{ name }}</span>
+                   <span class="popup__info-title">{{ place }}</span>
+                   <span class="popup__info-date">{{ date }}</span>
+               </div>
+               <div class="popup__comments-text">{{ message }}</div>
+           </li> 
+</ul>
+{{/each}}
+
+{{!-- <div class="name">{{ name }} {{ last_name }}</div> --}}
+

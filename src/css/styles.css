@@ -2,13 +2,18 @@
 
 body {
     margin: 0;
-    padding: 0;
-    background: red;
+    padding: 0;    
     font-size: 16px;
     font-weight: 400;
     font-family: 'Fira Sans', sans-serif;
     line-height: 1;
     color: #4f4f4f;
+    height: 100%;
+}
+
+html,
+.container {
+    height: 100%;
 }
 
 * {
@@ -19,6 +24,10 @@ body {
     width: 379px;    
     background-color: #ffffff;
     border-radius: 10px;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    display: none;
 }
 
 .popup__title {
@@ -153,7 +162,33 @@ body {
     font-weight: 300;   
 }
 
-.fa-map-marker--popup {    
+.ballon_header { 
+    font-size: 16px; 
+    margin-top: 0; 
+    margin-bottom: 10px; 
+    color: #708090; 
+}
+
+.ballon_body { 
+    font-size: 14px; 
+    text-align: center;  
+}
+
+.ballon_footer { 
+    font-size: 12px; 
+    text-align: right; 
+    color: #7D7D7D; 
+    margin-top: 10px; 
+}
+
+.baloon__adress {
+    font-size: 12px;
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+
+/* .fa-map-marker--popup {    
     font-size: 14px;
     font-weight: 400;
 }
@@ -162,7 +197,8 @@ body {
     color: #4f4f4f;
     font-size: 76px;
     font-weight: 400;
-}
+    display: none;
+} */
 
 /* .fa {
     color: green;
